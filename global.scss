@@ -7,42 +7,58 @@
     background-color:  #48B7F5;;
 }
 .catalogue-container{
-    margin-bottom:2em ;
+    margin-bottom:1em ;
 }
 .main-row-head{
     font-size: 20px;
     font-weight: 600;
+    position: relative;
+   
 }
+
 .main-card-body{
-    margin:0.3em;
+  
     width:160px;
    height: 230px;
+   margin:0.5em 0.4em;
     background: white;
     border-radius: 0.5rem;
-   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
     .img-container{
-        width:152px;
-        height: 152px;
-        margin: 0.25rem auto;
+        width:160px;
+        height: 160px;
+        
          .card-image{
                 width: inherit;
                 height: inherit;
-                object-fit: cover;border-radius: 0.25rem;
+                object-fit: cover;
+                border-radius: 0.25rem  0.25rem 0 0;
         }
     }
     .sub-head{
-     padding:0.5em; 
+    height: 70px;
+    width: 160px;
      
         .weight-size{
              font-weight: 500;
             line-height: 16px;
+            padding: 0em 0.5em;
+            display: flex;
+            align-items: center;
         }
         .heading{
-            font-size: 14px;  
+            font-size: 14px;
+            height: 40px; 
+            padding-top: 0.5em; 
         }
         .price{
+            height: 30px;
             font-size: 13px;
-            padding: 0.5em 0em;
+          
+            span{
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.7);
+            }
         }
     }
 }
